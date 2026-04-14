@@ -580,7 +580,7 @@ a.email{
 }
 
 .speaker-details-full {
-	grid-column: 1 / -1; /* spans all columns */
+	grid-column: 2 / -1; /* spans from the second column to the last */
 }
 
 .speaker-header {
