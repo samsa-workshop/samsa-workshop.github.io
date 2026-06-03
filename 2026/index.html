@@ -40,8 +40,9 @@
             <nav id="mainnav">
                 <ul>
                     <li class="selected-item"><a href="#welcome">Welcome</a></li>
-                    <li><a href="#programme">Programme</a></li>
-                    <!-- <li><a href="#invited-talks">Invited talks</a></li> -->
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#invited-talks">Invited talks</a></li>
+                    <li><a href="#participant-talks">Participant talks</a></li>
                     <li><a href="#organisation">Organisation</a></li>
                 </ul>
             </nav>
@@ -95,7 +96,7 @@
                         open problems and stimulate cooperation among researchers working in these fields.
                     </p>
                 </div>
-                <div id="programme">
+                <div id="schedule">
                     <h3>Programme</h3>
                     <p>
                         The programme will consist of invited talks and tutorials, and short contributed talks from
@@ -103,254 +104,928 @@
                     </p>
 
                     <p>
-                        The Schedule will begin at 9:30am on Monday 15 June. The final scheduled session will end at lunch on Friday 19 June, with the afternoon free for informal discussions (the room is still available).
+                        The Schedule begins with coffee at 9:30am on Monday 15 June. The final scheduled session will end at
+                        lunch on Friday 19 June, with the afternoon free for informal discussions (the room is still
+                        available).
                     </p>
+
+
+
+                    <h4>Schedule</h4>
+                    <div class="schedule">
+
+                        <!-- Monday -->
+                        <div class="daylabel">
+                            <div>Monday 01/06</div>
+                        </div>
+                        <div class="day">
+
+                            <div class="block coffee" style="grid-column: 1 / span 29">
+                                <div class="time">09:30</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 30 / span 60">
+                                <div class="time">10:00</div>
+                                <div class="label"><a href="#smertnig">Invited survey:<br>Smertnig</a></div>
+                            </div>
+                            <div class="block welcome" style="grid-column: 90 / span 60">
+                                <div class="time">11:00</div>
+                                <div class="label">Welcome and Introductions</div>
+                            </div>
+
+
+                            <div class="block lunch" style="grid-column: 150 / span 60">
+                                <div class="time">12:00</div>
+                                <div class="label">Lunch (2hr)</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 210 / span 60">
+                                <div class="time">14:00</div>
+                                <div class="label"><a href="#smertnig">Invited tutorial:<br>Smertnig</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 270 / span 30">
+                                <div class="time">15:00</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 300 / span 60">
+                                <div class="time">15:30</div>
+                                <div class="label"><a href="#matrix-semigroups-weighted">Participant talks:<br>Matrix
+                                        semigroups and weighted automata</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Tuesday -->
+                        <div class="daylabel">
+                            <div>Tuesday 02/06</div>
+                        </div>
+                        <div class="day">
+                            <div class="block invited" style="grid-column: 1 / span 59">
+                                <div class="time">09:30</div>
+                                <div class="label"><a href="#beal">Invited survey:<br>Béal</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 60 / span 30">
+                                <div class="time">10:30</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 90 / span 60">
+                                <div class="time">11:00</div>
+                                <div class="label"><a href="#semigroups-languages">Participant talks:<br>Semigroups and
+                                        languages</a></div>
+                            </div>
+                            <div class="block lunch" style="grid-column: 150 / span 60">
+                                <div class="time">12:00</div>
+                                <div class="label">Lunch (2hr)</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 210 / span 60">
+                                <div class="time">14:00</div>
+                                <div class="label"><a href="#beal">Invited tutorial:<br>Béal</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 270 / span 30">
+                                <div class="time">15:00</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 300 / span 60">
+                                <div class="time">15:30</div>
+                                <div class="label"><a href="#formal-power-series">Participant talks:<br>Formal power
+                                        series</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Wednesday -->
+                        <div class="daylabel">
+                            <div>Wednesday 03/06</div>
+                        </div>
+                        <div class="day">
+                            <div class="block invited" style="grid-column: 1 / span 59">
+                                <div class="time">09:30</div>
+                                <div class="label"><a href="#parnas">Invited talk:<br>Parnas</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 60 / span 30">
+                                <div class="time">10:30</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 90 / span 60">
+                                <div class="time">11:00</div>
+                                <div class="label"><a href="#program-analysis">Participant talks:<br>Program analysis
+                                        and dynamical systems</a></div>
+                            </div>
+                            <div class="block lunch" style="grid-column: 150 / span 60">
+                                <div class="time">12:00</div>
+                                <div class="label">Lunch (2hr)</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 210 / span 60">
+                                <div class="time">14:00</div>
+                                <div class="label"><a href="#parnas">Invited tutorial:<br>Parnas</a></div>
+                            </div>
+                            <div class="block other" style="grid-column: 270 / span 90">
+                                <div class="time">14:00</div>
+                                <div class="label">Free Afternoon</div>
+                            </div>
+
+                        </div>
+
+                        <!-- Thursday -->
+                        <div class="daylabel">
+                            <div>Thursday 04/06</div>
+                        </div>
+                        <div class="day">
+                            <div class="block invited" style="grid-column: 1 / span 59">
+                                <div class="time">09:30</div>
+                                <div class="label"><a href="#mazowiecki">Invited survey:<br>Filip Mazowiecki,</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 60 / span 30">
+                                <div class="time">10:30</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 90 / span 60">
+                                <div class="time">11:00</div>
+                                <div class="label"><a href="#sequences">Participant talks:<br>Sequences</a></div>
+                            </div>
+                            <div class="block lunch" style="grid-column: 150 / span 60">
+                                <div class="time">12:00</div>
+                                <div class="label">Lunch (2hr)</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 210 / span 60">
+                                <div class="time">14:00</div>
+                                <div class="label"><a href="#mazowiecki">Invited tutorial:<br>Filip Mazowiecki,</a>
+                                </div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 270 / span 30">
+                                <div class="time">15:00</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block invited" style="grid-column: 300 / span 60">
+                                <div class="time">15:30</div>
+                                <div class="label"><a href="#lohrey">Invited survey:<br>Lohrey</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Friday -->
+                        <div class="daylabel">
+                            <div>Friday 05/06</div>
+                        </div>
+                        <div class="day">
+                            <div class="block invited" style="grid-column: 1 / span 59">
+                                <div class="time">09:30</div>
+                                <div class="label"><a href="#lohrey">Invited tutorial:<br>Lohrey</a></div>
+                            </div>
+                            <div class="block coffee" style="grid-column: 60 / span 30">
+                                <div class="time">10:30</div>
+                                <div class="label">Coffee</div>
+                            </div>
+                            <div class="block participant" style="grid-column: 90 / span 60">
+                                <div class="time">11:00</div>
+                                <div class="label"><a href="#arithmetic-theories">Participant talks:<br>Reasoning in
+                                        arithmetic theories</a></div>
+                            </div>
+
+                            <div class="block other" style="grid-column: 150 / span 210">
+                                <div class="time">12:00</div>
+                                <div class="label">Lunch and Free Afternoon</div>
+                            </div>
+                        </div>
+
+                    </div><!-- end .schedule -->
                     <p>
-                        The full schedule will be announced shortly.
+                        Click the underlined session to jump to the speaker(s) of that session.
                     </p>
+                </div>
+                <div id="invited-talks">
 
-                    <h3>Call for Presentations</h3>
-                    <p>
-                        We invite all participants to contribute a 20 minutes long talk. We strongly encourage talks
-                        that do not fit in the format of more formal conferences: reports on failed attempts on solving
-                        open problems, presentations of old results that did not receive enough attention, open-ended
-                        potential research directions, unexpected connections between areas, etc. Talks on recent
-                        results and open problems are also welcome.
-                    </p>
-                    <p>
-                        Please submit your proposal to Andrew Ryzhikov
-                        <script>
-                            document.write('<a class="email" href="mailto:' + maila + '">' + maila + '</a>')
-                        </script>, ideally by May 15.
-                    </p>
+                    <h4>Invited Speakers: </h4>
 
 
-                    <div id="invited-talks">
-
-                        <h4>Invited Speakers: </h4>
-
-
-                        <div class="speaker-grid">
-                            <div class="speaker-header">
-                                <a href="https://igm.univ-mlv.fr/~beal/">Marie-Pierre Béal</a>, Universite Gustave
-                                Eiffel, France<br>
-                            </div>
-                            <div class="speaker-photo">
-                                <img src="beal.jpg" alt="Speaker photo" /><br>
-                            </div>
-                            <div class="speaker-details">
-                                <h5>Survey talk: Substitution shifts and recognizability</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p> Substitution shifts are symbolic dynamical systems defined by substitutions. In this talk, we study the notions of representability and recognizability of substitutions defined on bi-infinite sequences of symbols (also called points). Representability can be viewed as a form of surjectivity for the substitution, while recognizability is a form of injectivity: it allows one to uniquely desubstitute a sequence y into another sequence x. We introduce the notion of full recognizability, which is connected to circular codes, and discuss recent results on recognizability in substitution shifts and S-adic shifts. Finally, we present some open problems in this area.
-</p><p>
-The talk is based on joint work with Dominique Perrin, Antonio Restivo, and Wolfgang Steiner.
-                                    </p>
-                                </details>
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Tutorial talk: Recognizability of morphisms.</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>We give a combinatorial proof that elementary substitutions are fully recognizable for aperiodic points. We present a very simple proof of the recognizability of a substitution for aperiodic points using the full recognizability of elementary substitutions for aperiodic points.
-</p>
-                                </details>
-                            </div>
+                    <div class="speaker-grid">
+                        <div class="speaker-header">
+                            <a id="beal" href="https://igm.univ-mlv.fr/~beal/">Marie-Pierre Béal</a>, Universite Gustave
+                            Eiffel, France<br>
+                        </div>
+                        <div class="speaker-photo">
+                            <img src="beal.jpg" alt="Speaker photo" /><br>
+                        </div>
+                        <div class="speaker-details">
+                            <h5>Survey talk: Substitution shifts and recognizability</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p> Substitution shifts are symbolic dynamical systems defined by substitutions. In this
+                                    talk, we study the notions of representability and recognizability of substitutions
+                                    defined on bi-infinite sequences of symbols (also called points). Representability
+                                    can be viewed as a form of surjectivity for the substitution, while recognizability
+                                    is a form of injectivity: it allows one to uniquely desubstitute a sequence y into
+                                    another sequence x. We introduce the notion of full recognizability, which is
+                                    connected to circular codes, and discuss recent results on recognizability in
+                                    substitution shifts and S-adic shifts. Finally, we present some open problems in
+                                    this area.
+                                </p>
+                                <p>
+                                    The talk is based on joint work with Dominique Perrin, Antonio Restivo, and Wolfgang
+                                    Steiner.
+                                </p>
+                            </details>
                         </div>
 
-                        <div class="speaker-grid">
-                            <div class="speaker-header">
-                                <a href="https://www.eti.uni-siegen.de/ti/mitarbeiter/lohrey/">Markus Lohrey</a>,
-                                University of Siegen, Germany<br>
-                            </div>
-                            <div class="speaker-photo">
-                                <img src="lohrey.jpeg" alt="Speaker photo" />
-                            </div>
-                            <div class="speaker-details">
-                                <h5>Talk and Tutorial: Membership problems in groups</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>A classical decision problem in group theory is the <em>subgroup membership
-                                            problem</em>: given a finitely generated group $G$, the input consists of a
-                                        finite list of group elements $g, g_1, \ldots, g_n$ (represented as words over
-                                        the generators), and the question is whether $g$ belongs to the subgroup
-                                        generated by $g_1, \ldots, g_n$.</p>
-                                    <p>Over the last two decades, several generalizations of the subgroup membership
-                                        problem have been studied, such as the <em>submonoid membership problem</em> and
-                                        the <em>rational subset membership problem</em>.</p>
-                                    <p>In recent years, significant progress has been made on decidability and
-                                        complexity questions for various membership problems. We mention a few
-                                        representative results:</p>
-                                    <ul>
-                                        <li>The speaker showed in 2021 that the subgroup membership problem for the
-                                            matrix group $\mathrm{GL}(2, \mathbb{Z})$ can be decided in polynomial time
-                                            when all matrix entries in the input are given in binary notation.</li>
-                                        <li>Romankov (2023) proved that the submonoid membership problem is undecidable
-                                            in the group of all unitriangular $k$-dimensional integer matrices, provided
-                                            that $k$ is sufficiently large.</li>
-                                        <li>Bodart (2024) showed that the rational subset membership problem for the
-                                            Heisenberg group is decidable.</li>
-                                        <li>Bodart (2025) provided the first example of a group $G$ with an undecidable
-                                            subgroup membership problem such that membership in every fixed finitely
-                                            generated subgroup of $G$ is decidable.</li>
-                                        <li>Dong (2025), building on results of Shafrir (2024), showed that decidability
-                                            of the submonoid membership problem is not preserved under finite group
-                                            extensions.</li>
-                                    </ul>
-                                    <p>
-                                        In my first talk, I will give an overview of these recent developments and
-                                        discuss
-                                        open problems. In my second talk, I will provide some technical insights into
-                                        the proofs.</p>
-                                </details>
-                            </div>
-
+                        <div class="speaker-details">
+                            <h5>Tutorial talk: Recognizability of morphisms.</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>We give a combinatorial proof that elementary substitutions are fully recognizable
+                                    for aperiodic points. We present a very simple proof of the recognizability of a
+                                    substitution for aperiodic points using the full recognizability of elementary
+                                    substitutions for aperiodic points.
+                                </p>
+                            </details>
                         </div>
+                    </div>
 
-
-                        <div class="speaker-grid">
-                            <div class="speaker-header">
-                                <a href="https://fmazowiecki.github.io/">Filip Mazowiecki</a>, University of Warsaw,
-                                Poland<br>
-                            </div>
-                            <div class="speaker-photo">
-                                <img src="filip.jpg" alt="Speaker photo" />
-                            </div>
-                            <div class="speaker-details">
-                                <h5>Survey talk: Nonlinear extensions of linear recurrence sequences</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p> I will go through natural extensions of linear recurrence sequences (LRS). There
-                                        are three natural but orthogonal extensions: (1) polynomial recurrence
-                                        sequences, by changing the recurrence from linear functions to polynomials; (2)
-                                        holonomic sequences which one can think are definable by context-free grammars;
-                                        (3) WMSO sequences, which come from the Droste-Gastin logic characterising
-                                        weighted automata. I will also briefly discuss rational recurrence sequences,
-                                        which naturally generalises (1) and (2) but has some disadvantages.
-                                    </p>
-                                </details>
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Tutorial talk: Inexpressiveness results for polynomial recurrence sequences.</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>Following the survey I will show that the sequence $a_n = n^n$ cannot be defined as
-                                        a polynomial recurrence sequence, which shows that (1) does not contain (3) in
-                                        the survey talk.</p>
-                                </details>
-                            </div>
+                    <div class="speaker-grid">
+                        <div class="speaker-header">
+                            <a id="lohrey" href="https://www.eti.uni-siegen.de/ti/mitarbeiter/lohrey/">Markus
+                                Lohrey</a>,
+                            University of Siegen, Germany<br>
                         </div>
-
-
-
-                        <div class="speaker-grid">
-                            <div class="speaker-header">
-                                <a href="https://www2.mta.ac.il/~michalp//">Michal Parnas</a>, The Academic College of
-                                Tel-Aviv-Yaffo, Israel<br>
-                            </div>
-                            <div class="speaker-photo">
-                                <img src="Michal.jpg" alt="Speaker photo" />
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Survey talk: Mathematical and computational perspectives on the Boolean and binary
-                                    rank and their relation to the real rank</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>This talk will survey the main known results and open problems relating to the
-                                        Boolean and binary rank of 0,1 matrices, with particular emphasis on their
-                                        relationship to the real rank. We will review the basic definitions of these
-                                        rank functions and present the main alternative formulations of the binary and
-                                        Boolean rank, together with their computational complexity and their deep
-                                        connection to the field of communication complexity. We will see some examples
-                                        of techniques used to establish lower and upper bounds on the binary and Boolean
-                                        rank, from both mathematics and theoretical computer science, and also highlight
-                                        the main mathematical properties of these ranks in comparison with those of the
-                                        real rank. Finally, we will present some algorithmic approaches for computing
-                                        and approximating these rank functions.</p>
-                                </details>
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Tutorial talk: The Boolean and binary rank of Kronecker products: theory and
-                                    applications.</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>The Kronecker product is a useful tool to build large structured matrices from
-                                        smaller ones, with applications in mathematics and computer science. We will
-                                        discuss Kronecker products of 0,1 matrices, and applications such as direct sum
-                                        problems in communication complexity or how Kronecker products are used to
-                                        amplify the gap between the Boolean, binary and real rank. We will show some of
-                                        the main mathematical techniques used to give lower and upper bounds on the rank
-                                        of Kronecker products, as well as prove that the Boolean rank is not always
-                                        multiplicative under this product. The multiplicativity of the binary rank is
-                                        still an open problem.</p>
-                                </details>
-                            </div>
+                        <div class="speaker-photo">
+                            <img src="lohrey.jpeg" alt="Speaker photo" />
                         </div>
-
-                        <div class="speaker-grid">
-                            <div class="speaker-header">
-                                <a href="https://math.smertnig.at/">Daniel Smertnig</a>, University of Ljubljana,
-                                Slovenia<br>
-                            </div>
-                            <div class="speaker-photo">
-                                <img src="daniel.webp" alt="Speaker photo" /><br>
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Survey talk: The Status of the Ambiguity Hierarchy of Weighted Automata over Fields
-                                </h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>Weighted automata can be classified according to their degree of ambiguity,
-                                        ranging from deterministic and unambiguous automata, over finitely and
-                                        polynomially ambiguous automata, to exponentially ambiguous ones. These classes
-                                        form a natural hierarchy with strictly increasing expressive power, which gives
-                                        rise to both structural and algorithmic questions.
-                                    </p>
-                                    <p>
-                                        From a structural perspective, a central goal is to characterize the functions
-                                        that can be realized by weighted automata within a given ambiguity class. From
-                                        an algorithmic viewpoint, given a weighted automaton, we would like to determine
-                                        the smallest ambiguity class to which it belongs and, when possible, effectively
-                                        construct an equivalent automaton within that class.
-                                    </p>
-                                    <p>
-                                        Significant progress has recently been made on these questions, both for
-                                        tropical semirings and for fields. In this survey, I will present an overview of
-                                        the current state of the art for weighted automata over fields, highlighting key
-                                        results, techniques, and remaining open problems.
-                                    </p>
-                                </details>
-                            </div>
-
-                            <div class="speaker-details">
-                                <h5>Tutorial talk: Algebraic Methods for the Ambiguity Hierarchy.</h5>
-                                <details>
-                                    <summary>Abstract (click to expand)</summary>
-                                    <p>Given a function recognized by a weighted automaton over a field, the semigroup
-                                        generated by its transition matrices plays a central role in determining the
-                                        ambiguity class of the function. In the special case where all the transition
-                                        matrices are invertible, we consider the group generated by these transition
-                                        matrices.
-                                    </p>
-                                    <p>
-                                        Variations of classical algorithms from computational group theory then become
-                                        applicable to the problem of deciding the ambiguity class. In this tutorial, I
-                                        will explain this connection, and discuss some of relevant concepts from algebra
-                                        that are useful in this context but appear not to have been exploited yet by the
-                                        WA community (in particular, Wedderburn-Artin Theory).</p>
-                                </details>
-                            </div>
-
+                        <div class="speaker-details">
+                            <h5>Talk and Tutorial: Membership problems in groups</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>A classical decision problem in group theory is the <em>subgroup membership
+                                        problem</em>: given a finitely generated group $G$, the input consists of a
+                                    finite list of group elements $g, g_1, \ldots, g_n$ (represented as words over
+                                    the generators), and the question is whether $g$ belongs to the subgroup
+                                    generated by $g_1, \ldots, g_n$.</p>
+                                <p>Over the last two decades, several generalizations of the subgroup membership
+                                    problem have been studied, such as the <em>submonoid membership problem</em> and
+                                    the <em>rational subset membership problem</em>.</p>
+                                <p>In recent years, significant progress has been made on decidability and
+                                    complexity questions for various membership problems. We mention a few
+                                    representative results:</p>
+                                <ul>
+                                    <li>The speaker showed in 2021 that the subgroup membership problem for the
+                                        matrix group $\mathrm{GL}(2, \mathbb{Z})$ can be decided in polynomial time
+                                        when all matrix entries in the input are given in binary notation.</li>
+                                    <li>Romankov (2023) proved that the submonoid membership problem is undecidable
+                                        in the group of all unitriangular $k$-dimensional integer matrices, provided
+                                        that $k$ is sufficiently large.</li>
+                                    <li>Bodart (2024) showed that the rational subset membership problem for the
+                                        Heisenberg group is decidable.</li>
+                                    <li>Bodart (2025) provided the first example of a group $G$ with an undecidable
+                                        subgroup membership problem such that membership in every fixed finitely
+                                        generated subgroup of $G$ is decidable.</li>
+                                    <li>Dong (2025), building on results of Shafrir (2024), showed that decidability
+                                        of the submonoid membership problem is not preserved under finite group
+                                        extensions.</li>
+                                </ul>
+                                <p>
+                                    In my first talk, I will give an overview of these recent developments and
+                                    discuss
+                                    open problems. In my second talk, I will provide some technical insights into
+                                    the proofs.</p>
+                            </details>
                         </div>
-
-
 
                     </div>
+
+
+                    <div class="speaker-grid">
+                        <div class="speaker-header">
+                            <a id="mazowiecki" href="https://fmazowiecki.github.io/">Filip Mazowiecki</a>, University of
+                            Warsaw,
+                            Poland<br>
+                        </div>
+                        <div class="speaker-photo">
+                            <img src="filip.jpg" alt="Speaker photo" />
+                        </div>
+                        <div class="speaker-details">
+                            <h5>Survey talk: Nonlinear extensions of linear recurrence sequences</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p> I will go through natural extensions of linear recurrence sequences (LRS). There
+                                    are three natural but orthogonal extensions: (1) polynomial recurrence
+                                    sequences, by changing the recurrence from linear functions to polynomials; (2)
+                                    holonomic sequences which one can think are definable by context-free grammars;
+                                    (3) WMSO sequences, which come from the Droste-Gastin logic characterising
+                                    weighted automata. I will also briefly discuss rational recurrence sequences,
+                                    which naturally generalises (1) and (2) but has some disadvantages.
+                                </p>
+                            </details>
+                        </div>
+
+                        <div class="speaker-details">
+                            <h5>Tutorial talk: Inexpressiveness results for polynomial recurrence sequences.</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>Following the survey I will show that the sequence $a_n = n^n$ cannot be defined as
+                                    a polynomial recurrence sequence, which shows that (1) does not contain (3) in
+                                    the survey talk.</p>
+                            </details>
+                        </div>
+                    </div>
+
+
+
+                    <div class="speaker-grid">
+                        <div class="speaker-header">
+                            <a id="parnas" href="https://www2.mta.ac.il/~michalp//">Michal Parnas</a>, The Academic
+                            College of
+                            Tel-Aviv-Yaffo, Israel<br>
+                        </div>
+                        <div class="speaker-photo">
+                            <img src="Michal.jpg" alt="Speaker photo" />
+                        </div>
+
+                        <div class="speaker-details">
+                            <h5>Survey talk: Mathematical and computational perspectives on the Boolean and binary
+                                rank and their relation to the real rank</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>This talk will survey the main known results and open problems relating to the
+                                    Boolean and binary rank of 0,1 matrices, with particular emphasis on their
+                                    relationship to the real rank. We will review the basic definitions of these
+                                    rank functions and present the main alternative formulations of the binary and
+                                    Boolean rank, together with their computational complexity and their deep
+                                    connection to the field of communication complexity. We will see some examples
+                                    of techniques used to establish lower and upper bounds on the binary and Boolean
+                                    rank, from both mathematics and theoretical computer science, and also highlight
+                                    the main mathematical properties of these ranks in comparison with those of the
+                                    real rank. Finally, we will present some algorithmic approaches for computing
+                                    and approximating these rank functions.</p>
+                            </details>
+                        </div>
+
+                        <div class="speaker-details">
+                            <h5>Tutorial talk: The Boolean and binary rank of Kronecker products: theory and
+                                applications.</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>The Kronecker product is a useful tool to build large structured matrices from
+                                    smaller ones, with applications in mathematics and computer science. We will
+                                    discuss Kronecker products of 0,1 matrices, and applications such as direct sum
+                                    problems in communication complexity or how Kronecker products are used to
+                                    amplify the gap between the Boolean, binary and real rank. We will show some of
+                                    the main mathematical techniques used to give lower and upper bounds on the rank
+                                    of Kronecker products, as well as prove that the Boolean rank is not always
+                                    multiplicative under this product. The multiplicativity of the binary rank is
+                                    still an open problem.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="speaker-grid">
+                        <div class="speaker-header">
+                            <a id="smertnig" href="https://math.smertnig.at/">Daniel Smertnig</a>, University of
+                            Ljubljana,
+                            Slovenia<br>
+                        </div>
+                        <div class="speaker-photo">
+                            <img src="daniel.webp" alt="Speaker photo" /><br>
+                        </div>
+
+                        <div class="speaker-details">
+                            <h5>Survey talk: The Status of the Ambiguity Hierarchy of Weighted Automata over Fields
+                            </h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>Weighted automata can be classified according to their degree of ambiguity,
+                                    ranging from deterministic and unambiguous automata, over finitely and
+                                    polynomially ambiguous automata, to exponentially ambiguous ones. These classes
+                                    form a natural hierarchy with strictly increasing expressive power, which gives
+                                    rise to both structural and algorithmic questions.
+                                </p>
+                                <p>
+                                    From a structural perspective, a central goal is to characterize the functions
+                                    that can be realized by weighted automata within a given ambiguity class. From
+                                    an algorithmic viewpoint, given a weighted automaton, we would like to determine
+                                    the smallest ambiguity class to which it belongs and, when possible, effectively
+                                    construct an equivalent automaton within that class.
+                                </p>
+                                <p>
+                                    Significant progress has recently been made on these questions, both for
+                                    tropical semirings and for fields. In this survey, I will present an overview of
+                                    the current state of the art for weighted automata over fields, highlighting key
+                                    results, techniques, and remaining open problems.
+                                </p>
+                            </details>
+                        </div>
+
+                        <div class="speaker-details">
+                            <h5>Tutorial talk: Algebraic Methods for the Ambiguity Hierarchy.</h5>
+                            <details>
+                                <summary>Abstract (click to expand)</summary>
+                                <p>Given a function recognized by a weighted automaton over a field, the semigroup
+                                    generated by its transition matrices plays a central role in determining the
+                                    ambiguity class of the function. In the special case where all the transition
+                                    matrices are invertible, we consider the group generated by these transition
+                                    matrices.
+                                </p>
+                                <p>
+                                    Variations of classical algorithms from computational group theory then become
+                                    applicable to the problem of deciding the ambiguity class. In this tutorial, I
+                                    will explain this connection, and discuss some of relevant concepts from algebra
+                                    that are useful in this context but appear not to have been exploited yet by the
+                                    WA community (in particular, Wedderburn-Artin Theory).</p>
+                            </details>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div id="participant-talks">
+                    <h4>Participant talks:</h4>
+                    <p>
+                        We encouraged contributed talks which <strong>do not fit in the format of more formal
+                            conferences</strong>, such as reports on failed attempts, presentations of old results
+                        that did not receive enough attention, open-ended potential research directions, unexpected
+                        connections between different areas, open problems and possible lines of attack.
+                    </p>
+
+                    <!-- ============================================================
+                             SESSION: Matrix semigroups and weighted automata
+                             Monday 15:30
+                             ============================================================ -->
+                    <h5 id="matrix-semigroups-weighted">Matrix semigroups and weighted automata</h5>
+                    <span class="session-time">Monday 15:30</span>
+
+                    <details>
+                        <summary>
+                            Peter Kostolányi (Comenius University in Bratislava, Slovakia)<br>
+                            <strong>Ambiguity Hierarchies for Weighted Automata over Fields: Strict or Not?</strong>
+                        </summary>
+                        <p>The ambiguity hierarchy of rational series over a field $\mathbb{F}$ and alphabet
+                            $\Sigma$ consists of the sets of series realised by the deterministic, unambiguous,
+                            finitely ambiguous, polynomially ambiguous, and unrestricted weighted automata over
+                            $\mathbb{F}$ and $\Sigma$. While each of these layers is obviously included in the
+                            following one, the strictness of the inclusions can depend both on the field
+                            $\mathbb{F}$ and on the alphabet $\Sigma$.</p>
+                        <p>The fundamental question about how the strictness of these inclusions depends on the
+                            algebraic properties of the field $\mathbb{F}$ has recently been fully answered by the
+                            speaker both for unary and for arbitrary finite alphabets. The talk will review a
+                            landscape that has been uncovered by these investigations, with emphasis on the most
+                            recent and yet unpublished results.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Yahia-Idriss Benalioua (University of Warsaw, Poland)<br>
+                            <strong>Is the linear Zariski closure of a context-free language of matrices
+                                computable?</strong>
+                        </summary>
+                        <p>Consider the following problem: given a language $L \subseteq \Sigma^*$ and a monoid
+                            morphism $\mu \colon \Sigma^* \to \mathbb{Q}^{n \times n}$, compute the linear Zariski
+                            closure of $\mu(L)$ (i.e. the smallest union of vector spaces containing $\mu(L)$).</p>
+                        <p>This problem can be considered for different classes of languages. When $L$ is regular,
+                            it can be solved using the tools for the computation of the linear hull of a weighted
+                            automaton, which is an invariant that plays a central role in deciding the existence of
+                            an equivalent deterministic or unambiguous automaton as well as the minimization of
+                            equivalent cost register automata.</p>
+                        <p>In this talk, we focus on the setting of context-free languages (CFL). Here, the problem
+                            remains open and happens to be an interesting subproblem of the computation of the
+                            linear hull for weighted tree automata, which would allow extending the previous results
+                            from words to trees on a ranked alphabet.</p>
+                        <p>It has also been considered for the more general Zariski topology in [Ait El Mansour et
+                            al., 2026] where it was shown to be decidable for languages recognizable by 1-VASS
+                            (which is a subclass of CFL) and undecidable for indexed languages (which generalize
+                            CFL).</p>
+                        <p>Based on joint work with Nathan Lhote and Pierre Alain-Reynier.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Roland Guttenberg (University of Warsaw)<br>
+                            <strong>Revisiting Finiteness of Matrix Monoids</strong>
+                        </summary>
+                        <p>We consider decision problems related to finite monoids of rational matrices.</p>
+                        <p>We show that determining finiteness of a given finitely presented monoid is in PSPACE,
+                            improving the known co-NEXP<sup>NP</sup> bound. We also show that the membership problem
+                            for finite matrix monoids is PSPACE-complete, improving the known NEXP upper bound.</p>
+                        <p>Our two complexity results are corollaries of a new polynomial bit-size bound on matrix
+                            entries in finite monoids. This is obtained by reduction to the case of matrix groups,
+                            using the structure theory of noncommutative algebras and of matrix monoids. Our
+                            techniques also give us a polynomial-time algorithm for deciding whether a monoid of
+                            rational matrices is conjugate to a monoid of integer matrices.</p>
+                        <p>This talk is based on a paper accepted to ICALP 2026, and is joint work with Rida Ait El
+                            Manssour, Nathan Lhote, Mahsa Shirmohammadi and James Ben Worrell.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Neha Rino (University of Warwick, UK)<br>
+                            <strong>Fine-Grained Complexity of XNFA and NFA Acceptance</strong>
+                        </summary>
+                        <p>XNFAs (also known as XOR-NFAs or symmetric-difference NFAs) are a variant of standard
+                            finite automata in which an input word is accepted iff the number of accepting runs is
+                            odd. Equivalently, these are weighted automata over the field of two elements, whereas
+                            the more familiar nondeterministic finite automata (NFAs) are weighted automata over the
+                            Boolean semiring. Much like NFAs, XNFAs recognise exactly the class of regular languages
+                            and are exponentially more succinct than DFAs. Unlike NFAs, XNFAs admit efficient
+                            complementation and minimisation.</p>
+                        <p>Given an automaton A and a word w, the acceptance problem asks whether A accepts w. In
+                            this talk, we compare the acceptance problem for XNFAs and NFAs in a fine-grained
+                            manner, focusing on optimising the degrees of polynomials in the running-time bounds. We
+                            first refine the upper bounds for the acceptance problem for XNFAs and NFAs of bounded
+                            ambiguity (e.g., unambiguous automata). We then show that, under the assumption of
+                            polynomial ambiguity, NFA acceptance reduces to XNFA acceptance. This is joint work with
+                            Dmitry Chistikov, Radoslaw Piorkowski and Brink van der Merwe.</p>
+                    </details>
+
+                    <!-- ============================================================
+                             SESSION: Semigroups and languages
+                             Tuesday 11:00
+                             ============================================================ -->
+                    <h5 id="semigroups-languages">Semigroups and languages</h5>
+                    <span class="session-time">Tuesday 11:00</span>
+
+                    <details>
+                        <summary>
+                            Corto Mascle (MPI-SWS, Kaiserslautern, Germany)<br>
+                            <strong>Optimal sequential flows and a short-ends factorisation theorem</strong>
+                        </summary>
+                        <p>Simon's theorem is a fundamental result in formal languages that lets one factorise words
+                            with respect to a finite semigroup. This talk is an advertisement for a Simon-inspired
+                            method to compute bounded summaries of words with respect to a finite semigroup, while
+                            losing some information. We will see an application of this method for a
+                            flow-maximisation problem.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Richard Mandel (Max Planck Institute for Software Systems in Kaiserslautern,
+                            Germany)<br>
+                            <strong>The Hilbert method for homomorphism equivalence in indexed languages</strong>
+                        </summary>
+                        <p>Given a language $L \subset \Sigma^*$ and homomorphisms $h, k\colon \Sigma^* \rightarrow
+                            \Sigma^*$, the homomorphism equivalence problem (HEP) asks whether $h$ and $k$ are
+                            equivalent when restricted to $L$. We show decidability of the HEP for ET0L languages (a
+                            subclass of indexed languages) using a Hilbert method approach, and discuss the
+                            obstacles which arise when one attempts to generalize it to the full class of indexed
+                            languages.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Reinis Cirpons (Inria, Nantes, France)<br>
+                            <strong>Extensions of the Todd-Coxeter algorithm via automata theory</strong>
+                        </summary>
+                        <p>The well known Todd-Coxeter algorithm is widely used to construct transformation
+                            representations of finitely presented monoids. It can be seen, in some sense, as
+                            computing the direct limit of a sequence of semiautomata approximating the right Cayley
+                            graph of the underlying monoid. This algorithm can also be used for finitely presented
+                            groups and, perhaps more surprisingly, there exists an analogue of the Todd-Coxeter
+                            algorithm for inverse monoids due to J. B. Stephen (1987). This is despite the fact that
+                            the free inverse monoid is not finitely presented as a monoid. Could it be possible to
+                            extend the Todd-Coxeter algorithm to other classes of monoids, such as finitely based
+                            varieties of monoids?</p>
+                        <p>In this talk I will briefly describe a category theory based approach to modeling the
+                            Todd-Coxeter algorithm and I will present an extension of the Todd-Coxeter algorithm to
+                            presentations in finitely based varieties of monoids, motivated by a recent NL-space
+                            algorithm for deciding if a monoid identity is modelled by a given finitely generated
+                            transformation monoid due to L. Fleisher and T. Jack (2020).</p>
+                    </details>
+
+                    <!-- ============================================================
+                             SESSION: Formal power series
+                             Tuesday 15:30
+                             ============================================================ -->
+                    <h5 id="formal-power-series">Formal power series</h5>
+                    <span class="session-time">Tuesday 15:30</span>
+
+                    <details>
+                        <summary>
+                            Lorenzo Clemente (University of Warsaw, Poland)<br>
+                            <strong>The Lie rank of a series: Computability and applications</strong>
+                        </summary>
+                        <p>The purpose of this presentation is to advertise the notion of Lie rank of a series. It
+                            was introduced by Fliess in the 1980's as a generalisation of the notion of Hankel rank
+                            (also introduced by Fliess).</p>
+                        <p>The Lie rank is less than or equal to the Hankel rank, and consequently the series of
+                            finite Lie rank generalise the rational series (which are those of finite Hankel rank).
+                            The pinnacle of the theory is a result of Fliess, who has shown that series of finite
+                            Lie rank have minimal automata recognisers.</p>
+                        <p>As a new result, we show that the Lie rank is computable for the class of rational and
+                            shuffle-finite series.</p>
+                        <p>This is joint and ongoing work with Nathan Lhote.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Aliaume Lopez (INP Bordeaux, France)<br>
+                            <strong>Aperiodicity for Rational Series</strong>
+                        </summary>
+                        <p>Aperiodic finite semigroups are part of a beautiful correspondence between restricted
+                            automata models, first-order logic on strings, and star-free regular expressions. There
+                            have been several propositions for a generalisation of these objects to a weighted
+                            setting (preserving said correspondence), defining aperiodic weighted automata,
+                            aperiodic matrix semigroups, and star-free rational series. I will present what little
+                            is known about these models, and conjectures that are believed to hold in general.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Subbarao Venkatesh Guggilam (University of Warsaw, Poland)<br>
+                            <strong>Shuffle-Rational Series, Doubly-Rational Series &amp; Shuffle-Finite
+                                Series</strong>
+                        </summary>
+                        <p>Formal power series have long played a central role in both Mathematical Systems Theory
+                            and Automata Theory. A foundational result by Marcel-Paul Schützenberger established
+                            that recognizable series (the semantics of weighted automata) are precisely the rational
+                            series, where rationality is defined via the rational closure under the Cauchy product
+                            of non-commutative polynomials.</p>
+                        <p>This connection extends into systems theory through the framework of Chen–Fliess series
+                            (named after K. T. Chen &amp; Michel Fliess), where rational series correspond to
+                            canonical realizations of bilinear systems.</p>
+                        <p>Motivated by this interplay, a natural question arises: What if we replace the Cauchy
+                            product with the shuffle product in forming the rational closure? This leads to the
+                            notion of shuffle-rational series. In this talk, we will introduce the concept of
+                            shuffle recognizability, and present a Schützenberger-type result showing the
+                            equivalence between shuffle rationality and shuffle recognizability. We will also
+                            explore the implications of these ideas in the context of nonlinear systems theory.</p>
+                        <p>In a related direction, Schützenberger also proved that rational series are closed under
+                            the shuffle product. This observation leads to a second construction: the rational
+                            closure of rational series under shuffle—giving rise to doubly-rational series. If time
+                            permits, we will discuss the notion of doubly-recognizable series as well, and the
+                            relation of all these classes with respect to shuffle-finite series.</p>
+                        <p>The talk is intended to be self-contained and assumes no prior background in systems
+                            theory or Chen–Fliess series.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Jakub Byszewski (Jagiellonian University, Poland)<br>
+                            <strong>Finite automata and finite-order elements in the Nottingham group</strong>
+                        </summary>
+                        <p>The Nottingham group is a profinite group of power series over a finite field, with
+                            composition as the group operation. It is known to contain many elements of finite
+                            order, but, except in very special cases, no explicit formulas for such elements had
+                            been known.</p>
+                        <p>I will explain how finite automata can be used to give explicit descriptions of such
+                            elements. The construction uses techniques from algebraic geometry and number theory to
+                            produce algebraic power series, which are then converted into automata using Christol's
+                            theorem. I will also discuss the problem of finding sparse representatives of some of
+                            these elements.</p>
+                        <p>The talk is based on joint work with Gunther Cornelissen, Djurre Tijsma, and Mieke
+                            Wessel.</p>
+                    </details>
+
+                    <!-- ============================================================
+                             SESSION: Program analysis and dynamical systems
+                             Wednesday 11:00
+                             ============================================================ -->
+                    <h5 id="program-analysis">Program analysis and dynamical systems</h5>
+                    <span class="session-time">Wednesday 11:00</span>
+
+                    <details>
+                        <summary>
+                            Tran Cong Mai-Linh (University of Lorraine, France)<br>
+                            <strong>Shapes of potential counterexamples to Nivat's conjecture</strong>
+                        </summary>
+                        <p>Given a finite alphabet $A$, we say that a two-dimensional configuration $c$ over $A$ is
+                            of low complexity if there exist two integers $M$ and $N$ such that $P_c(M,N) \leq MN$
+                            holds, where $P_c$ denotes the pattern complexity function of $c$. As a potential
+                            generalization of the one-dimensional Morse and Hedlund theorem, Nivat's conjecture
+                            states that any such configuration must be periodic.</p>
+                        <p>A counterexample to this conjecture would then be a low-complexity but non-periodic
+                            configuration. What would such a configuration look like? Could the understanding of its
+                            shape reveal the absurdity of its existence? Using a geometric interpretation of
+                            underlying algebraic geometry tools developed by Jarkko Kari and Michal Szabados, I will
+                            take you through the different attempts we have made at answering those questions.</p>
+                        <p>This work is joint work with Pierre Guillon, Jarkko Kari and Etienne Moutot.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Erdenebayar Bayarmagnai (KU Leuven, Belgium)<br>
+                            <strong>Computing polynomial invariants of loops</strong>
+                        </summary>
+                        <p>Loop invariants are properties that hold before and after each iteration of a program
+                            loop, and they play a central role in program verification by ensuring the correctness
+                            of algorithms throughout execution. This talk focuses on polynomial loops, where loop
+                            assignments are given by polynomial maps. While computing polynomial invariants for
+                            general loops is undecidable, efficient methods exist for certain restricted classes of
+                            loops such as solvable loops. I consider a more general setting in which the loop
+                            assignments may involve arbitrary polynomials. Using tools from algebraic geometry, I
+                            present two algorithms for generating all polynomial invariants of a polynomial loop up
+                            to a specific degree. These algorithms differ depending on whether the initial values of
+                            the loop variables are fixed or treated as parameters.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Igor Rystsov (National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic
+                            Institute", Ukraine)<br>
+                            <strong>SYNCHRONIZATION INFINITE AUTOMATA: COLLATZ PROBLEM</strong>
+                        </summary>
+                        <p>
+                            <span class="abstract-label">Abstract.</span>
+                            We consider famous Collatz problem (the \(3x + 1\) problem) and treated it from the
+                            automata theory point of view. New forms of Collatz automata is proposed that can be
+                            analytically
+                            studied. Let \(C(n)\) be the famous Collatz function \(C(n) = n/2\) if \(n\) is even,
+                            and
+                            \(3n + 1\) if \(n\) is odd. The autonomous automaton \(A_1 = (\mathbb{N}, \{1\},
+                            \delta_1)\)
+                            simulates this function, where \(\mathbb{N}\) is the set of natural numbers, and
+                            \(\delta_1(n, 1) = C(n)\) for all \(n \in \mathbb{N}\). According to Collatz conjecture
+                            the
+                            trivial cycle \((1,4,2)\) will be the attractor for the super-word \(1^\infty\).
+                        </p>
+
+                        <p>
+                            Denote by \(\mathbb{N}_0\) and \(\mathbb{N}_1\) the subsets of the even and odd natural
+                            numbers,
+                            respectively. Let \(\mathrm{ord}(n)\) be the maximal number \(m\) for which \(2^m\)
+                            divides
+                            \(n\). Consider the autonomous automaton \(A_2 = (\mathbb{N}_1, \{1\}, \delta_2)\),
+                            where:
+                        </p>
+
+                        <div class="display-math">
+                            \[
+                            \delta_1(n, 1) = \frac{3n + 1}{2^{\mathrm{ord}(3n+1)}}.
+                            \]
+                        </div>
+
+                        <p>
+                            From Collatz conjecture follows that super-word \(1^\infty\) will be synchronizing for
+                            the
+                            automaton \(A_2\), i.e., the first state 1 will be the attractor \(\mathrm{im}(1^\infty)
+                            = \{1\}\).
+                        </p>
+
+                        <p>
+                            In the automaton \(A_3 = (\mathbb{N}_1, \{0,1\}, \delta_3)\), versus the automaton
+                            \(A_2\),
+                            multiplication and division operations is separated
+                        </p>
+
+                        <div class="display-math">
+                            \[
+                            \delta_3(n, 1) = 3n, \qquad \delta_3(n, 0) = \frac{n + 1}{2^{\mathrm{ord}(n+1)}}.
+                            \]
+                        </div>
+
+                        <p>
+                            Here we can see for the super-word \((10)^\infty\) struggle between multiplication and
+                            division,
+                            where division wins.
+                        </p>
+
+                        <p>
+                            <span class="keywords-label">Keywords:</span> \(3x + 1\) problem, Collatz conjecture,
+                            infinite automata.
+                        </p>
+                    </details>
+
+                    <!-- ============================================================
+                             SESSION: Sequences
+                             Thursday 11:00
+                             ============================================================ -->
+                    <h5 id="sequences">Sequences</h5>
+                    <span class="session-time">Thursday 11:00</span>
+
+                    <details>
+                        <summary>
+                            Piotr Bacik (University of Oxford, UK and Max Planck Institute for Software Systems,
+                            Saarbrücken, Germany)<br>
+                            <strong>How many zeros can holonomic sequences have?</strong>
+                        </summary>
+                        <p>A sequence $(u_n)$ is holonomic (or P-finite) if it satisfies a recurrence $a_d(n)
+                            u_{n+d} = a_{d-1}(n) u_{n+d-1} + \cdots + a_0(n) u_n$, with polynomial coefficients
+                            $a_i(n)$. In the case where the coefficients are constants, we call $(u_n)$ a C-finite
+                            sequence, and in this setting, the celebrated Skolem-Mahler-Lech theorem states that the
+                            set of zeros is a union of finitely many arithmetic progressions and a finite set. This
+                            has since been refined to give effective upper bounds on the number of arithmetic
+                            progressions and the size of the finite set <em>based only on the order $d$</em>.</p>
+                        <p>In the world of P-finite sequences, an analogue of the Skolem-Mahler-Lech theorem is
+                            known (since 2012) for P-finite sequences where the first and last coefficients are
+                            non-zero modulo a prime $p$. In this talk, I will discuss recent/ongoing work in which
+                            we refine this result to give effective upper bounds on the number of arithmetic
+                            progressions and the size of the finite set <em>based only on the order $d$, the degrees
+                                of the coefficients $a_i(n)$, and the prime $p$</em>.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            George Kenison (Maynooth University, Ireland)<br>
+                            <strong>Positivity problems and equality tests</strong>
+                        </summary>
+                        <p>The Positivity Problem asks: is every term in a recursively-defined sequence
+                            non-negative? Recent works, focusing on low-order P-finite sequences, have shown that
+                            problem instances for Positivity can be resolved by settling equality tests (e.g.,
+                            determine whether a given constant is zero). Obstacles to progress arise because the
+                            constants involved in such tests are commonly expressed as the limits of infinite
+                            products or generalised continued fractions. In this talk, we will take an
+                            examples-based approach and present current challenges in the field.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Vincent Ghigo (University of Bordeaux, France)<br>
+                            <strong>On the equivalence between generating functions computed by memory transducers
+                                and enumerating functions produced by indexed grammars</strong>
+                        </summary>
+                        <p>We consider the sequences of natural integers that can be computed by a deterministic
+                            transducer, with input in an arbitrary structure, output in natural integers, and with
+                            memory the set of stacks of stacks of the structure. We show, by constructive proofs,
+                            that these sequences are exactly the counting sequences of formal languages generated by
+                            unambiguous context-free indexed grammars, with indexes in the structure. This general
+                            theorem applies, notably, to the structure of natural integers endowed with the
+                            decrement operation, showing that the polynomial recurrences count exactly the
+                            index-languages.</p>
+                    </details>
+
+                    <!-- ============================================================
+                             SESSION: Reasoning in arithmetic theories
+                             Friday 11:00
+                             ============================================================ -->
+                    <h5 id="arithmetic-theories">Reasoning in arithmetic theories</h5>
+                    <span class="session-time">Friday 11:00</span>
+
+                    <details>
+                        <summary>
+                            S Hitarth (Max Planck Institute for Software Systems, Saarbrücken, Germany)<br>
+                            <strong>Computing over Integer Linear-Exponential Straight Line Programs</strong>
+                        </summary>
+                        <p>An integer linear-exponential straight line program (ILESLP) over the base 2 is an
+                            arithmetic circuit/program with gates for addition, multiplication by rationals, and
+                            taking exponent with base 2. For example, $\{x := 2^y,\; y = 3z + w;\; z = 2^5,\; w =
+                            7\}$ is an ILESLP representing the value $2^{3 \cdot 2^5 + 7}$. ILESLPs can be used to
+                            efficiently encode the solutions of integer linear-exponential programs, which extend
+                            integer linear programs with the functions $x \mapsto 2^x$ and $(x,y) \mapsto (x \bmod
+                            2^y)$. Recently, it was shown that the optimal solutions of such programs have
+                            polynomial-sized ILESLPs. However, for such an encoding of huge integers to be useful,
+                            it is desirable to have efficient algorithms for performing computations over them. I
+                            will briefly discuss algorithms to validate the well-formedness of a given ILESLP and
+                            determine whether it represents a positive integer (PosSLP). I will then introduce a few
+                            interesting open problems, such as performing binary search over a set of ILESLPs and
+                            solving the PosSLP problem for ILESLP with two bases.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Jakub Kaszycki (University of Warsaw, Poland)<br>
+                            <strong>Parametric Recognizability over the Integers</strong>
+                        </summary>
+                        <p>$k$-recognizable sets of nonnegative integer vectors are those whose $k$-ary
+                            representations form regular languages. For any $k \ge 2$, this yields a distinct,
+                            well-behaved superclass of semilinear sets. A classical result states that
+                            $k$-recognizable sets are exactly those that can be defined in Büchi arithmetic, linear
+                            integer arithmetic extended with a function $V_k$ yielding the largest divisor of its
+                            argument which is a power of $k$.</p>
+                        <p>We consider a parametric setting where the base $k$ itself is treated as a variable. For
+                            a single formula, different bases often define an infinite family of distinct sets. We
+                            establish a connection between this parametric arithmetic and a class of symbolic
+                            automata. Furthermore, we establish a deep structural insight: a first-order sentence of
+                            parametric Büchi arithmetic is effectively equivalent to a Presburger constraint on the
+                            base—resolving an open question from 2021.</p>
+                        <p>This talk is based on joint work with Alessio Mansutti and Mikhail Starchak.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Nikhil Balaji (IIT Delhi, India)<br>
+                            <strong>The sum of square roots problem</strong>
+                        </summary>
+                        <p>The sum of square-roots problem is an important computational problem in numerical
+                            analysis, with applications to computational geometry: Given positive integers $a_1,
+                            a_2, \ldots, a_n$ and $b_1, b_2, \ldots, b_m$, check if $\sqrt{a_1} + \sqrt{a_2} +
+                            \cdots + \sqrt{a_n} > \sqrt{b_1} + \sqrt{b_2} + \cdots + \sqrt{b_m}$. The problem has a
+                            trivial linear time algorithm on the real RAM (just compute the sums and compare them!)
+                            but surprisingly this is not a polynomial time algorithm in the traditional Turing
+                            machine model. This problem naturally occurs in computational geometry, particularly in
+                            Euclidean shortest path problems, complicating the transfer of algorithms from the real
+                            RAM to the standard integer RAM.</p>
+                        <p>I will survey what is known about this problem and the difficulty in obtaining an
+                            efficient algorithm. I will present an interesting observation that gives an "efficient
+                            algorithm" for certain special cases of the problem and explain what it would take to
+                            make "efficient" actually efficient for the general case.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Matthew Konefal (Loughborough University, UK)<br>
+                            <strong>Expressivity of Quadratic and Subquadratic Word Equations</strong>
+                        </summary>
+                        <p>Expressing formal languages is a natural role of variables in word equations. For
+                            instance, the equation $X = Ya$ asserts that the assignment to $X$ should belong to the
+                            language $\Sigma^* a$. The induced class of languages is not well-understood.
+                            String-solving, perhaps the foremost application of this expression mechanism, must be
+                            done tractably, and thus practical examples of word equations often have restricted
+                            form. A natural question is how this impacts the expressivity. It is known that the
+                            mechanism becomes strictly more powerful each time one more variable is allowed. We
+                            study the classes of languages expressed by quadratic and subquadratic equations,
+                            wherein the structure of the equation is constrained, yet arbitrarily many variables are
+                            permitted. We separate the associated hierarchy of language classes. Sometimes, we are
+                            able to describe these language classes explicitly. In other cases, combinatorial
+                            hurdles (e.g. non-parameterisability) or difficult examples prevent us from doing so.
+                            Lots of (non-)closure properties result.</p>
+                    </details>
+
+
+
+
+
+
                     <h5 id="lunch">Lunch</h5>
                     <p>
                         Participants are invited to go to lunch in the local area in small groups. There are many
@@ -362,114 +1037,133 @@ The talk is based on joint work with Dominique Perrin, Antonio Restivo, and Wolf
                         <!-- in North Eastern corner of Pole Mokotowskie adjacent to the Politechnika metro stop.  -->
 
                     </p>
-                </div>
+
+                    <h4>Call for Presentations</h4>
+                <p>
+                    We invite all participants to contribute a 20 minutes long talk. We strongly encourage talks
+                    that do not fit in the format of more formal conferences: reports on failed attempts on solving
+                    open problems, presentations of old results that did not receive enough attention, open-ended
+                    potential research directions, unexpected connections between areas, etc. Talks on recent
+                    results and open problems are also welcome.
+                </p>
+                <p>
+                    <s>Please submit your proposal to Andrew Ryzhikov
+                        <script>
+                            document.write('<a class="email" href="mailto:' + maila + '">' + maila + '</a>')
+                        </script>, ideally by May 15.
+                    </s>
+                </p>
+                </div><!-- end #participant-talks -->
+
+                
 
 
-                <div id="organisation">
-                    <h3>Organisation</h3>
-                    <p>
-                        SAMSA Workshop: Series, Automata, Matrices, Symbolic dynamics, and their Applications is
-                        organised by:
-                    </p>
+            <div id="organisation">
+                <h3>Organisation</h3>
+                <p>
+                    SAMSA Workshop: Series, Automata, Matrices, Symbolic dynamics, and their Applications is
+                    organised by:
+                </p>
 
-                    <div class="people">
-                        <div class="person">
-                            <a href="https://www.irif.fr/~alopez/">
-                                <img src="aliaume.jpg" alt="Aliaume Lopez" width="200"><br>
-                                Aliaume Lopez</a><br>
-                            <small>INP Bordeaux, France</small><br>
-                            <script>
-                                document.write('<a class="email" href="mailto:' + mailal + '">' + mailal + '</a>')
-                            </script>
-                        </div>
-                        <div class="person">
-                            <img src="antek.jpg" alt="Antoni Puch" width="200"><br>
-                            Antoni Puch<br>
-                            <small>University of Warsaw, Poland</small><br>
-                            <script>
-                                document.write('<a class="email" href="mailto:' + mailan + '">' + mailan + '</a>')
-                            </script>
-                        </div>
-                        <div class="person">
-                            <a href="https://www.davidpurser.net/">
-                                <img src="square-david.png" alt="David Purser" width="200"><br>
-                                David Purser</a><br>
-                            <small>University of Liverpool, UK</small><br>
-
-                            <script>
-                                document.write('<a class="email" href="mailto:' + maild + '">' + maild + '</a>')
-                            </script>
-                        </div>
-                        <div class="person">
-                            <a href="https://sites.google.com/site/ryzandrew/">
-                                <img src="square-andrew.png" alt="Andrew Ryzhikov" width="200"><br>
-                                Andrew Ryzhikov</a>
-                            <br>
-                            <small>University of Warsaw, Poland</small><br>
-                            <script>
-                                document.write('<a class="email" href="mailto:' + maila + '">' + maila + '</a>')
-                            </script>
-                        </div>
-
+                <div class="people">
+                    <div class="person">
+                        <a href="https://www.irif.fr/~alopez/">
+                            <img src="aliaume.jpg" alt="Aliaume Lopez" width="200"><br>
+                            Aliaume Lopez</a><br>
+                        <small>INP Bordeaux, France</small><br>
+                        <script>
+                            document.write('<a class="email" href="mailto:' + mailal + '">' + mailal + '</a>')
+                        </script>
                     </div>
-                    <p>
-                    <h5>Contact:</h5>
-                    Click
-                    <script>
-                        document.write('<a href="mailto:' + maild + ';' + maila + ';' + mailal + ';' + mailan + '">here</a>')
-                    </script> to email all four organisers.
-                    </p>
-                    <h5>Location:</h5>
-                    <p> The SAMSA workshop takes place in person at the Faculties of Modern Languages (Wydział
-                        Neofilologii).</p>
-                    <p> <a href="https://maps.app.goo.gl/MVnM9sSLngCAJpzw6">Address: 55 Dobra street</a> at the
-                        University of Warsaw, Poland. (The closest entrance to the room is on Browarna.)
-                    </p>
-                    <p>
-                        Sessions will take place in Room 1.110 (first floor, zero indexed).
-                    </p>
-
-                    <div class="people">
-                        <div class="person">
-                            <img src="building.jpg" width="200">
-                        </div>
-                        <div class="person">
-                            <img src="faculty.jpg" width="200">
-                        </div>
-                        <div class="person">
-                            <img src="header.jpg" width="200">
-                        </div>
-                        <div class="person">
-                            <a href="https://osm.org/go/0Oy6ReJE-?node=11067979467">
-                                <img src="map.jpeg" width="200">
-                            </a>
-                        </div>
+                    <div class="person">
+                        <img src="antek.jpg" alt="Antoni Puch" width="200"><br>
+                        Antoni Puch<br>
+                        <small>University of Warsaw, Poland</small><br>
+                        <script>
+                            document.write('<a class="email" href="mailto:' + mailan + '">' + mailan + '</a>')
+                        </script>
                     </div>
-                    <br>
+                    <div class="person">
+                        <a href="https://www.davidpurser.net/">
+                            <img src="square-david.png" alt="David Purser" width="200"><br>
+                            David Purser</a><br>
+                        <small>University of Liverpool, UK</small><br>
 
-                    <h5>Attending:</h5>
-                    <p>
-                        If you are interested in attending in the Workshop, please contact the organisers (please
-                        include all).
-                    </p>
-                    <h5>Financial support:</h5>
-                    <p>
-                        We gratefully acknowledge support from Le Trójkąt CNRS International Research Project.
-                    </p>
-                    <h5>Past editions:</h5>
-                    <p>
-                        <a href="/2025">Samsa 2025</a>, Warsaw
-                    </p>
+                        <script>
+                            document.write('<a class="email" href="mailto:' + maild + '">' + maild + '</a>')
+                        </script>
+                    </div>
+                    <div class="person">
+                        <a href="https://sites.google.com/site/ryzandrew/">
+                            <img src="square-andrew.png" alt="Andrew Ryzhikov" width="200"><br>
+                            Andrew Ryzhikov</a>
+                        <br>
+                        <small>University of Warsaw, Poland</small><br>
+                        <script>
+                            document.write('<a class="email" href="mailto:' + maila + '">' + maila + '</a>')
+                        </script>
+                    </div>
+
                 </div>
+                <p>
+                <h5>Contact:</h5>
+                Click
+                <script>
+                    document.write('<a href="mailto:' + maild + ';' + maila + ';' + mailal + ';' + mailan + '">here</a>')
+                </script> to email all four organisers.
+                </p>
+                <h5>Location:</h5>
+                <p> The SAMSA workshop takes place in person at the Faculties of Modern Languages (Wydział
+                    Neofilologii).</p>
+                <p> <a href="https://maps.app.goo.gl/MVnM9sSLngCAJpzw6">Address: 55 Dobra street</a> at the
+                    University of Warsaw, Poland. (The closest entrance to the room is on Browarna.)
+                </p>
+                <p>
+                    Sessions will take place in Room 1.110 (first floor, zero indexed).
+                </p>
+
+                <div class="people">
+                    <div class="person">
+                        <img src="building.jpg" width="200">
+                    </div>
+                    <div class="person">
+                        <img src="faculty.jpg" width="200">
+                    </div>
+                    <div class="person">
+                        <img src="header.jpg" width="200">
+                    </div>
+                    <div class="person">
+                        <a href="https://osm.org/go/0Oy6ReJE-?node=11067979467">
+                            <img src="map.jpeg" width="200">
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+                <h5>Attending:</h5>
+                <p>
+                    If you are interested in attending in the Workshop, please contact the organisers (please
+                    include all).
+                </p>
+                <h5>Financial support:</h5>
+                <p>
+                    We gratefully acknowledge support from Le Trójkąt CNRS International Research Project.
+                </p>
+                <h5>Past editions:</h5>
+                <p>
+                    <a href="/2025">Samsa 2025</a>, Warsaw
+                </p>
             </div>
-            <footer class="clear">
-                <hr>
-                <p>&copy; 2026. Based on <a
-                        href="https://web.archive.org/web/20190429211603/http://zypopwebtemplates.com/">Free CSS
-                        Templates</a> by ZyPOP</p>
-            </footer>
         </div>
-        <div class="clear"></div>
+        <footer class="clear">
+            <hr>
+            <p>&copy; 2026. Based on <a
+                    href="https://web.archive.org/web/20190429211603/http://zypopwebtemplates.com/">Free
+                    CSS
+                    Templates</a> by ZyPOP</p>
+        </footer>
+    </div>
+    <div class="clear"></div>
     </div>
     <script>
         $(document).ready(function () {
