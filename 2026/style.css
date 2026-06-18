@@ -419,7 +419,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
   width: 100%; /* Makes the image take up the full width of the parent container */
   height: 0;
   padding-top: 60%; /* This will set the height to 70% of the width (aspect ratio trick) */
-  background-image: url('group.jpg'); /* Set the background image */
+  background-image: url('group.webp'); /* Set the background image */
   background-size: cover; /* Ensures the image fully covers the container */
   background-position: center; /* Center the image */
   position: relative;
