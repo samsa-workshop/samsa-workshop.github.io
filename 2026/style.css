@@ -419,7 +419,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
   width: 100%; /* Makes the image take up the full width of the parent container */
   height: 0;
   padding-top: 60%; /* This will set the height to 70% of the width (aspect ratio trick) */
-  background-image: url('header.jpg'); /* Set the background image */
+  background-image: url('group.jpg'); /* Set the background image */
   background-size: cover; /* Ensures the image fully covers the container */
   background-position: center; /* Center the image */
   position: relative;
@@ -430,7 +430,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
 
 .text-overlay {
   position: absolute; /* Position text absolutely inside the .photo-element */
-  top: 40%; /* Vertically center the text */
+  top: 25%; /* Vertically center the text */
   left: 50%; /* Horizontally center the text */
   transform: translate(-50%, -50%); /* Offset by 50% of the element’s size for true centering */
   color: var(--accent);
@@ -454,7 +454,7 @@ footer p a:hover { color:#333; border-bottom-color: #333; }
     -2px -1px white;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
 	.text-overlay { font-size: 4em; }
 }
